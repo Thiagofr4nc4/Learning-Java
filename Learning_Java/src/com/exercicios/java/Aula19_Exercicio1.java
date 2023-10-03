@@ -6,12 +6,15 @@ public class Aula19_Exercicio1 {
 		A [0] = 1;
 		A [1] = 2;
 		A [2] = 3;
-		A [2] = 4;
+		A [3] = 4;
 		A [4] = 5;
 		
 		int[] B = A;
 		
-		System.out.println(B.length);
+		 // Imprima os valores de A com base em B
+        for (int i = 0; i < B.length; i++) {
+            System.out.println("A[" + i + "] = " + B[i]);
+        }
 		
 	}
 }

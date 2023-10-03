@@ -1,25 +1,31 @@
 package com.exercicios.java;
-
+import java.util.Scanner;
 public class Aula19_Exercicio2 {
 
 	public static void main(String[] args) {
-	int[] A = new int [8];
+	Scanner scan = new Scanner(System.in);
+	
+	int[] vetorA = new int[10];
+	int[] vetorB = new int[vetorA.length]; //array B recebe os valores do array A
+	
+	for(int i=0; i<vetorA.length; i++) {
+		System.out.println("Entre com o valor da posição " + i);
+		vetorA[i] = scan.nextInt();
 		
-		A[0] = 1;
-		A[1] = 2;
-		A[2] = 3;
-		A[3] = 4;
-		A[4] = 5;
-		A[5] = 6;
-		A[6] = 7;
-		A[7] = 8;
+		vetorB[i] = vetorA[i]*2;
 		
-		int[] B = new int [1]; // Declarar e inicializar o array B
+	}
+		System.out.print("Vetor A = ");
+		for (int i=0; i<vetorA.length; i++) {
+			System.out.print(vetorA[i]+ " " );
+		}
 		
-		B[0] = A[7]*2;
+		System.out.println();
 		
-		System.out.println(B[0]);
-				
+		System.out.print("Vetor B = ");
+		for (int i=0; i<vetorB.length; i++) {
+			System.out.print(vetorB[i]+ " " );
+		}
 	}
 
 }
