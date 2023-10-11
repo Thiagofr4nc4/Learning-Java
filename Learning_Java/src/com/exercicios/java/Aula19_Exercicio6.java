@@ -11,15 +11,15 @@ public class Aula19_Exercicio6 {
 		int[] vetorB = new int[5]; 
 		int[] vetorC = new int[vetorA.length];
 		
-		//receber valores para vetor A
-		for(int i=0; i<vetorA.length; i++) {
-			System.out.println("Entre com o valor da posição de A " + i);
-			vetorA[i] = scan.nextInt();
+				//receber valores para vetor A
+				for(int i=0; i<vetorA.length; i++) {
+				System.out.println("Entre com o valor da posição de A " + i);
+				vetorA[i] = scan.nextInt();
 		}
-			System.out.println();
+				System.out.println();
 			
-			//receber valores para vetor B
-			for(int i=0; i<vetorB.length; i++) {
+				//receber valores para vetor B
+				for(int i=0; i<vetorB.length; i++) {
 				System.out.println("Entre com o valor da posição de B " + i);
 				vetorB[i] = scan.nextInt();	
 			}
