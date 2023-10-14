@@ -1,7 +1,5 @@
 package com.aulas.java.poo.labs24;
 
-import java.util.Scanner;
-
 public class ContaCorrente {
 		String banco;
 		String agencia;

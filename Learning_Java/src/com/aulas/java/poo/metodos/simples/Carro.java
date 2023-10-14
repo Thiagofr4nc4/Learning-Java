@@ -6,9 +6,16 @@ public class Carro {
 	int numPassageiros;
 	double capCombustivel;
 	double consumoCombustivel;
-	
+
+
 	void exibirAutonomia(){
 		
 			System.out.println("A autonimia do carro é: " + capCombustivel * consumoCombustivel + "km");
+	}
+	double obterAutonomia() {
+		
+		System.out.println("Chamando o doutor Hanzs Schucrutes");
+		
+		return capCombustivel * consumoCombustivel;
 	}
 }
