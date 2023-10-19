@@ -35,7 +35,7 @@ public class Aluno {
 
 
 
-//Esse código eu quem fiz, mas estava duplicando e não sabia ao certo como reduzir 
+//Esse código eu quem fiz, mas estava duplicando codigo
 	/*double notaDisciplina1(double notaDisciplina1) {
 		System.out.println("A nota na " + disciplina1 + " foi de: " + notaDisciplina1);
 		if (notaDisciplina1 < 5){
