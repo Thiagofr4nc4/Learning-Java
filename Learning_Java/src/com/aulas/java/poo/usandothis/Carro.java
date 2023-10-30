@@ -33,7 +33,8 @@ public class Carro {
 		this.numPassageiros = numPassageiros;
 		System.out.println("Chamando construtor com 3 parametros");
 		System.out.println(this.marca);
-		
+		System.out.println(this.modelo);
+		System.out.println(this.numPassageiros);
 	}
 
 
